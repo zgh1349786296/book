@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class UserDaoImpl implements UserDao {
-    private  JdbcTemplate template=new JdbcTemplate(JDBCUtils.getDataSource());
+    private  JdbcTemplate template=new JdbcTemplate(JDBCUtils.getDataSource()); //创建JdbcTemplate对象
     String closeForeignKey = "SET @ORIG_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0";
     Integer close = template.update(closeForeignKey);
     @Override
@@ -28,7 +28,7 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public List<BookEdit> findAllBookEdit() throws SQLException {
+    public List<BookEdit> findAllBookEdit() throws SQLException {  //查询图书记录
         String sql = "select * from bookedit order by operateTime desc limit 5";
         List<BookEdit> bookedits = new ArrayList<>();
         Connection con= JDBCUtils.getConnection();
@@ -47,7 +47,7 @@ public class UserDaoImpl implements UserDao {
         return bookedits;
     }
 
-    @Override
+    @Override  //查询管理员账号密码
     public Manager findManagerByUsernameAndPassword(String username, String password) {
         try {
             String sql = "select * from maninf where manId = ? and manPassword = ?";
@@ -59,6 +59,7 @@ public class UserDaoImpl implements UserDao {
         }
 
     }
+    //查询学生账号密码
     @Override
     public Student findStudentByUsernameAndPassword(String username, String password) {
         try {
@@ -71,20 +72,13 @@ public class UserDaoImpl implements UserDao {
         }
 
     }
-
-    @Override
-    public void add(User user) {
-        //1.定义sql
-        String sql = "insert into user values(?,?,?,?,?,?,?,?,?)";
-        //2.执行sql
-        template.update(sql, user.getId(),user.getName(), user.getGender(), user.getAge(), user.getAddress(), user.getQq(), user.getEmail(),user.getUsername(),user.getPassword());
-    }
+    //添加图书
     @Override
     public void addBook(Book book) {
         String sql = "insert into book values(?,?,?,?)";
         template.update(sql, book.getBookId(),book.getBookName(),book.getBookClassify(),book.getBookCount());
     }
-
+    //添加操作记录
     @Override
     public void addBookEdit(BookEdit bookedit) {
 
@@ -94,14 +88,7 @@ public class UserDaoImpl implements UserDao {
 
     }
 
-    @Override
-    public void delete(int id) {
-        //1.定义sql
-        String sql = "delete from user where id = ?";
-        //2.执行sql
-        template.update(sql, id);
-    }
-
+    //删除图书
     @Override
     public void deleteBook(String id) {
 
@@ -111,12 +98,7 @@ public class UserDaoImpl implements UserDao {
         template.update(sql, id);
     }
 
-    @Override
-    public User finById(int id) {
-        String sql = "select * from user where id = ?";
-        return template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), id);
-    }
-
+    //通过图书ID 查询
     @Override
     public Book findBookById(String id) {
         try{
@@ -130,13 +112,7 @@ public class UserDaoImpl implements UserDao {
 
     }
 
-    @Override
-    public void update(User user) {
-        String sql = "update user set name = ?,gender = ? ,age = ? , address = ? , qq = ?, email = ? where id = ?";
-        template.update(sql, user.getName(), user.getGender(), user.getAge(), user.getAddress(), user.getQq(), user.getEmail(), user.getId());
-
-    }
-
+    //修改图书
     @Override
     public void updateBook(Book book) {
         String sql = "update book set bookName = ?,bookClassify = ?,bookCount= ? where bookId = ?";
@@ -201,7 +177,7 @@ public class UserDaoImpl implements UserDao {
         System.out.println(params);
         return template.query(sql,new BeanPropertyRowMapper<User>(User.class),params.toArray());
     }
-
+    //通过书名查询
     @Override
     public List<Book> findBookByName(String name) {
         try {

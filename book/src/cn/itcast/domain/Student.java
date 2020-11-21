@@ -1,5 +1,5 @@
 package cn.itcast.domain;
-
+//学生实体类
 public class Student {
     private String stuId;
     private String  stuName;

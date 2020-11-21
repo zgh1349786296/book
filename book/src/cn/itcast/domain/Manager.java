@@ -1,5 +1,5 @@
 package cn.itcast.domain;
-
+//管理员实体类
 public class Manager {
     private String manId;
     private String manPassword;

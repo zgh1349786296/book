@@ -23,13 +23,12 @@ public class FindBookByIdServlet extends HttpServlet {
 
         UserService service = new UserServiceImpl();
         Book book = service.findBookById(id);
-
+    //添加操作记录
         Date date = new Date();
         BookEdit bookedit =new BookEdit(book.getBookId(),"zgh",date,"查找",book.getBookCount());
-        //3.将user存入request
         service.addBookEdit(bookedit);
         request.setAttribute("book",book);
-        //4.转发到update.jsp
+        //4.实现返现.jsp
         request.getRequestDispatcher("/book_update.jsp").forward(request,response);
     }
 

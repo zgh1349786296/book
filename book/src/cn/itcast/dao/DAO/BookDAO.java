@@ -22,7 +22,7 @@ public class BookDAO {
         ps1.setString(1,book.getBookId());
         ResultSet rs = ps1.executeQuery();
         int number = 0;
-        if (rs.next()){
+        if (rs.next()){   //获取当前图书数目
             number = rs.getInt("bookCount");
         }
         if(number>0){

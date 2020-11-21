@@ -1,6 +1,5 @@
 package cn.itcast.domain;
-
-import java.sql.Time;
+//图书记录实体类
 import java.util.Date;
 
 public class BookEdit {

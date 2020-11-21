@@ -19,6 +19,7 @@ public class UpdateStuServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        //得到学生id
         try {
             String stuId = null;
             try {
@@ -38,6 +39,7 @@ public class UpdateStuServlet extends HttpServlet {
             student.setStuId(stuId);
             student.setStuName(stuName);
             student.setStuPassword(stuPassword);
+            //更新学生信息
             try {
                 DAO.update(student);
                 response.sendRedirect(request.getContextPath()+"/stu_success.jsp");

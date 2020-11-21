@@ -45,13 +45,14 @@ public class UpdateBookServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
+        //插入操作记录
         BookEdit bookedit =new BookEdit(book.getBookId(),manId,date,"修改",book.getBookCount());
-        //4.调用Service修改
+        //更新图书
         UserService service = new UserServiceImpl();
         service.updateBook(book);
         service.addBookEdit(bookedit);
 
-        //5.跳转到查询所有Servlet
+        //5.跳转更新成功
         response.sendRedirect("book_success.jsp");
     }
 

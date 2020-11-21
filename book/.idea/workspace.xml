@@ -9,7 +9,56 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d3adf9-a210-4dc9-a241-29ad406630ad" name="Default Changelist" comment="" />
+    <list default="true" id="b7d3adf9-a210-4dc9-a241-29ad406630ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/domain/BookEdit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/domain/BookEdit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/DelSelectedServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/AddBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/AddBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/DelBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/DelBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/FindBookByIdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/FindBookByIdServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/FindBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/FindBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/domain/BookEdit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/domain/BookEdit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/DelSelectedServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/AddBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/AddBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/DelBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/DelBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/FindBookByIdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/FindBookByIdServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/FindBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/FindBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/dao/DAO/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/dao/DAO/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/dao/DAO/BookRecorderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/dao/DAO/BookRecorderDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/dao/DAO/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/dao/DAO/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/domain/BookEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/domain/BookEdit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/domain/BookRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/domain/BookRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/domain/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/domain/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/DelSelectedServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/ManQuitServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/ManQuitServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/MloginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/MloginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/AddBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/AddBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/DelBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/DelBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/FindBookByIdServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/FindBookByIdServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/FindBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/FindBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/UpdateBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/UpdateBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/bookoperat/BookEditListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/bookoperat/BookEditListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/BookInServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/BookInServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/BookOutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/BookOutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/BookSearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/BookSearchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/StuQuitServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/StuQuitServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/UpdateStuServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/UpdateStuServlet.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +79,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -38,10 +90,12 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1fFqp2aGXDDtu0ZtwEVdAeLzb9R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -206,18 +260,30 @@
       <workItem from="1605660180840" duration="20656000" />
       <workItem from="1605707846876" duration="7106000" />
       <workItem from="1605744366236" duration="44769000" />
+      <workItem from="1605922807028" duration="2128000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/cn/itcast/web/servlet/bookoperat/BookEditListServlet.java</url>
-          <line>23</line>
+          <line>24</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -227,7 +293,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/cn/itcast/web/servlet/MloginServlet.java</url>
-          <line>24</line>
+          <line>25</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -237,7 +303,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cn/itcast/service/impl/UserServiceImpl.java</url>
-          <line>122</line>
+          <line>97</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -247,7 +313,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/cn/itcast/dao/impl/UserDaoImpl.java</url>
-          <line>62</line>
+          <line>63</line>
           <properties class="cn.itcast.dao.impl.UserDaoImpl" method="findStudentByUsernameAndPassword">
             <option name="EMULATED" value="true" />
           </properties>

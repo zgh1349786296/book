@@ -22,18 +22,22 @@ public class MloginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //1.设置编码
+        //得到按钮值以及输入的账号密码
         request.setCharacterEncoding("utf-8");
         String sub_name=request.getParameter("sub_name");
         String id=request.getParameter("userId");
         String password=request.getParameter("userPassword");
 
         UserService service = new UserServiceImpl();
+        //若点击用户登录
         if(sub_name.equals("用户登录")){
             Student student = new Student();
             student.setStuId(id);
             student.setStuPassword(password);
             Student loginstudent = service.mlogin(student);
+            //判断是否存在该用户
             if(loginstudent != null){
+                //利用cookie保存用户信息
                 Cookie logininf = new Cookie("stuId", id);
                 logininf.setMaxAge(60*60);
                 logininf.setPath("/");
@@ -48,12 +52,15 @@ public class MloginServlet extends HttpServlet {
                 request.getRequestDispatcher("/mlogin.jsp").forward(request,response);
             }
         }
+        //若点击用户登录
         else if(sub_name.equals("管理员登录")){
             Manager manager = new Manager();
             manager.setManId(id);
             manager.setManPassword(password);
             Manager loginmanagerr = service.login(manager);
+            //判断是否存在该用户
             if(loginmanagerr != null){
+                //利用cookie保存管理员信息
                 Cookie logininf = new Cookie("manId", id);
                 request.setAttribute("man",manager);
                 response.addCookie(logininf);

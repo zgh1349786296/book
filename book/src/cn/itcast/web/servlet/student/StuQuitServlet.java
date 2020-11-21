@@ -17,6 +17,7 @@ public class StuQuitServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        //清除cookie
         Cookie logininf = new Cookie("stuId", null);
         logininf.setMaxAge(0);
         logininf.setPath("/");

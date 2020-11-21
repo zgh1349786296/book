@@ -1,7 +1,7 @@
 package cn.itcast.domain;
 
 import java.sql.Timestamp;
-
+//借阅记录实体类
 public class BookRecord {
     private String stuId,bookId;
     private Timestamp time;

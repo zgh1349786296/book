@@ -22,15 +22,18 @@ public class BookSearchServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+
         String bookName = request.getParameter("bookName");
         String bookClassify = request.getParameter("bookClassify");
         BookDAO DAO = new BookDAO();
         List<Book> books = null;
+        //图书查询
         try {
             books = DAO.search(bookName, bookClassify);
         } catch (Exception e) {
             e.printStackTrace();
         }
+        //存入request
         request.setAttribute("books",books);
         try {
             request.getRequestDispatcher("/stu_searchallbook.jsp").forward(request,response);

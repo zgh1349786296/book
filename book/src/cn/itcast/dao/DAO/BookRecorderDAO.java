@@ -50,7 +50,7 @@ public class BookRecorderDAO {
         JDBCUtils.free(rs,ps,conn);
         return BookRecords;
     }
-
+    //查询图书数量
     public int bookOutCount(String stuId) throws Exception{
         Connection conn = JDBCUtils.getConnection();
         String Sql = "select count(*) from bookout where stuId = ? ";

@@ -21,6 +21,7 @@ public class BookOutServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        //得到学生id
         try {
             String stuId = null;
             try {
@@ -37,9 +38,11 @@ public class BookOutServlet extends HttpServlet {
             BookDAO dao = new BookDAO();
             BookRecorderDAO recorderDAO=new BookRecorderDAO();
             Book book = new Book(bookId);
+            //得到图书数量
             int count = recorderDAO.bookOutCount(stuId);
             if(count<5){
                 try {
+
                     String note = dao.bookout(book,stuId);
                     if(note.equals("success")){
                         response.sendRedirect(request.getContextPath()+"/stu_success.jsp");//用于跳出框架跳转页面

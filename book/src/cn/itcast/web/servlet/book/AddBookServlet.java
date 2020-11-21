@@ -33,7 +33,7 @@ public class AddBookServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-        //
+        //调用服务
         UserService service = new UserServiceImpl();
         Book exitbook = service.findBookById(book.getBookId());
         Date date = new Date();
@@ -56,10 +56,11 @@ public class AddBookServlet extends HttpServlet {
             service.addBook(book);
             //添加操作记录
             service.addBookEdit(bookedit);
-            //跳转到bookListServlet
+            //跳转到操作成功界面
             response.sendRedirect("book_success.jsp");
         }
         else{
+            //书存在添加失败
             request.setAttribute("add_msg","该书已存在");
             request.getRequestDispatcher("/book_add.jsp").forward(request,response);
 

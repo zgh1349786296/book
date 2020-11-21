@@ -13,11 +13,15 @@ import java.util.Map;
 public interface UserService {
 
     /**
-     * 查询所有用户信息
+     * 查询所有图书信息
      * @return
      */
-     List<User> findAll();
+
      List<Book> findAllBook();
+    /**
+     * 查询所有图书操作信息
+     * @return
+     */
     List<BookEdit> findAllBookEdit() throws SQLException;
     /**
      * 管理员登录方法
@@ -25,45 +29,36 @@ public interface UserService {
      * @return
      */
     Manager login(Manager manager);
-    Student mlogin(Student student);
     /**
-     * 保存User
-     * @param user
+     * 学生登录方法
+     * @param student
+     * @return
      */
-    void addUser(User user);
+    Student mlogin(Student student);
+
+//添加图书，图书操作记录
     void addBook(Book book);
     void addBookEdit(BookEdit bookedit);
     /**
      * 根据id删除User
      * @param id
      */
-    void deleteUser(String id);
+//删除图书
     void deleteBook(String id);
     /**
      * 根据id查询User
      * @param id
      */
-    User findUserById(String id);
+    //查找图书
     Book findBookById(String id);
     List<Book> findBookByName(String name);
     List<Book> findBookByClassify(String classify);
-    /**
-     * 修改用户信息
-     * @param user
-     */
-    void updateUser(User user);
+ //修改图书
     void updateBook(Book book);
-    /**
-     * 用户登录
-     * @param user
-     */
 
 
-    /**
-     * 批量删除用户
-     * @param ids
-     */
-    void delSelectedUser(String[] ids);
+
+
     /**
      * 分页条件查询
      *   * @param currentPage

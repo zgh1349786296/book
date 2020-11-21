@@ -12,7 +12,7 @@ import java.sql.ResultSet;
 
 public class StudentDAO {
 
-    //修改
+    //修改学生信息
     public void update(Student student) throws Exception{
         Connection conn = JDBCUtils.getConnection();
         String Sql = "update stuinf set stuName = ?, stuPassword = ? where stuId = ?";

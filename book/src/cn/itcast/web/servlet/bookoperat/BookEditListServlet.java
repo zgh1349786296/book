@@ -20,6 +20,7 @@ public class BookEditListServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         UserService service = new UserServiceImpl();
         List<BookEdit> bookedits = null;
+        //查询操作记录
         try {
             bookedits = service.findAllBookEdit();
         } catch (SQLException e) {

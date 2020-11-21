@@ -16,10 +16,10 @@ public class ManQuitServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-
+        //清除cookie
         Cookie logininf = new Cookie("manId", null);
         logininf.setMaxAge(0);
-        logininf.setPath("/");
+
         response.addCookie(logininf);
         response.sendRedirect(request.getContextPath()+"/mlogin.jsp");
     }

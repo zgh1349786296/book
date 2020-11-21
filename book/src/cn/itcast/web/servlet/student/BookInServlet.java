@@ -28,7 +28,7 @@ public class BookInServlet extends HttpServlet {
             Timestamp time = Timestamp.valueOf(request.getParameter("time"));
             BookDAO DAO = new BookDAO();
             Book book = new Book(bookId);
-
+            //还书
             try {
                 String note = DAO.bookin(book,stuId,time);
                 if(note.equals("success")){

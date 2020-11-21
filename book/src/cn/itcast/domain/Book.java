@@ -1,5 +1,5 @@
 package cn.itcast.domain;
-
+//书实体类
 public class Book {
     private String bookId;
     private String bookName;

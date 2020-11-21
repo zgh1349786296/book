@@ -16,11 +16,7 @@ public class UserServiceImpl implements UserService {
     private UserDao dao = new UserDaoImpl();
 
 
-    @Override
-    public List<User> findAll() {
-        return null;
-    }
-
+//服务层实现
     @Override
     public List<Book> findAllBook() {
         return dao.findAllBook();
@@ -40,10 +36,7 @@ public class UserServiceImpl implements UserService {
     public Student mlogin(Student student) {
         return dao.findStudentByUsernameAndPassword(student.getStuId(),student.getStuPassword());
     }
-    @Override
-    public void addUser(User user) {
-        dao.add(user);
-    }
+
 
     @Override
     public void addBook(Book book) {
@@ -55,20 +48,13 @@ public class UserServiceImpl implements UserService {
         dao.addBookEdit(bookedit);
     }
 
-    @Override
-    public void deleteUser(String id) {
-        dao.delete(Integer.parseInt(id));
-    }
+
 
     @Override
     public void deleteBook(String id) {
         dao.deleteBook(id);
     }
 
-    @Override
-    public User findUserById(String id) {
-        return dao.finById(Integer.parseInt(id));
-    }
 
     @Override
     public Book findBookById(String id) {
@@ -86,10 +72,7 @@ public class UserServiceImpl implements UserService {
     }
 
 
-    @Override
-    public void updateUser(User user) {
-        dao.update(user);
-    }
+
 
     @Override
     public void updateBook(Book book) {
@@ -97,14 +80,6 @@ public class UserServiceImpl implements UserService {
     }
 
 
-    @Override
-    public void delSelectedUser(String[] ids) {
-        //遍历
-        for(String id : ids){
-            //2删除调用
-            dao.delete(Integer.parseInt(id));
-        }
-    }
 
     public String CookieMan(Cookie[] cookies){
         if (cookies == null) {
@@ -112,14 +87,14 @@ public class UserServiceImpl implements UserService {
 
         }
         for (Cookie cookie : cookies) {
-            if(cookie.getName().equalsIgnoreCase("manId")){
+            if(cookie.getName().equalsIgnoreCase("manId")){  //检测管理员cookie存在否
                 return cookie.getValue();
             }
         }
         return null;
     }
 
-    public String CookieStu(Cookie[] cookies){
+    public String CookieStu(Cookie[] cookies){  //检测学生cookie存在否
             if (cookies == null) {
                 return null;
 
