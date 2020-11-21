@@ -12,23 +12,8 @@
     <list default="true" id="b7d3adf9-a210-4dc9-a241-29ad406630ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/MloginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/MloginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/student/BookOutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/student/BookOutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/mlogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/mlogin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/stu_Inf.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/stu_Inf.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/stu_bookin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/stu_bookin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/stu_inOutRecord.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/stu_inOutRecord.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/stu_searchallbook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/stu_searchallbook.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/MloginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/MloginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/student/BookOutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/student/BookOutServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/MloginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/MloginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/BookOutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/student/BookOutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mlogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mlogin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/stu_Inf.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu_Inf.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/stu_bookin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu_bookin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/stu_inOutRecord.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu_inOutRecord.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/stu_searchallbook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu_searchallbook.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +216,7 @@
       <workItem from="1605660180840" duration="20656000" />
       <workItem from="1605707846876" duration="7106000" />
       <workItem from="1605744366236" duration="44769000" />
-      <workItem from="1605922807028" duration="4547000" />
+      <workItem from="1605922807028" duration="4737000" />
     </task>
     <servers />
   </component>

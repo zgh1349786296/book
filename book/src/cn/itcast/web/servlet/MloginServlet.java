@@ -62,7 +62,6 @@ public class MloginServlet extends HttpServlet {
             if(loginmanagerr != null){
                 //利用cookie保存管理员信息
                 Cookie logininf = new Cookie("manId", id);
-                logininf.setPath("/");
                 request.setAttribute("man",manager);
                 response.addCookie(logininf);
                 request.getRequestDispatcher("/TotalPage.jsp").forward(request,response);
