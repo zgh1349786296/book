@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="user:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7d3adf9-a210-4dc9-a241-29ad406630ad" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1fFqp2aGXDDtu0ZtwEVdAeLzb9R" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA WEB\book\web" />
+      <recent name="D:\JAVA WEB\book\src\cn\itcast\dao" />
+      <recent name="D:\JAVA WEB\book\web\WEB-INF" />
+      <recent name="D:\JAVA WEB\user\web" />
+      <recent name="D:\JAVA WEB\user\src\cn\itcast\web\servlet" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.web.servlet" />
+      <recent name="cn.itcast.web.servlet.student" />
+      <recent name="cn.itcast.OPER" />
+      <recent name="cn.itcast.domain" />
+      <recent name="cn.itcast.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA WEB\book\src\cn\itcast\web\servlet" />
+      <recent name="D:\JAVA WEB\book\web\book" />
+      <recent name="D:\JAVA WEB\book\web" />
+      <recent name="D:\JAVA WEB\user\web\css" />
+      <recent name="D:\JAVA WEB\user\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 7.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.75" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/user/mlogin.jsp" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="user:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/user" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_75_user" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1091" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49434" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="user:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7d3adf9-a210-4dc9-a241-29ad406630ad" name="Default Changelist" comment="" />
+      <created>1595824367210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595824367210</updated>
+      <workItem from="1595824375646" duration="10909000" />
+      <workItem from="1595931146618" duration="20962000" />
+      <workItem from="1596099683275" duration="9173000" />
+      <workItem from="1596189122036" duration="7540000" />
+      <workItem from="1596274683499" duration="7032000" />
+      <workItem from="1596292208095" duration="2179000" />
+      <workItem from="1596360995424" duration="6811000" />
+      <workItem from="1596449454570" duration="6422000" />
+      <workItem from="1596531234741" duration="7102000" />
+      <workItem from="1596540478149" duration="504000" />
+      <workItem from="1596625459287" duration="4919000" />
+      <workItem from="1596684076633" duration="1758000" />
+      <workItem from="1596686056074" duration="158000" />
+      <workItem from="1596795499696" duration="608000" />
+      <workItem from="1596799485159" duration="192000" />
+      <workItem from="1600657929720" duration="1023000" />
+      <workItem from="1602419675713" duration="1019000" />
+      <workItem from="1602688797681" duration="733000" />
+      <workItem from="1602854945032" duration="1416000" />
+      <workItem from="1602901903598" duration="5837000" />
+      <workItem from="1602921076814" duration="7193000" />
+      <workItem from="1603005223782" duration="4001000" />
+      <workItem from="1604582556090" duration="2748000" />
+      <workItem from="1604677954474" duration="1627000" />
+      <workItem from="1604887006012" duration="8009000" />
+      <workItem from="1604924043332" duration="7657000" />
+      <workItem from="1605059255540" duration="18596000" />
+      <workItem from="1605490609646" duration="4856000" />
+      <workItem from="1605511097065" duration="3682000" />
+      <workItem from="1605514894341" duration="2677000" />
+      <workItem from="1605660180840" duration="20656000" />
+      <workItem from="1605707846876" duration="7106000" />
+      <workItem from="1605744366236" duration="44769000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/itcast/web/servlet/bookoperat/BookEditListServlet.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/web/stu_booklist.jsp</url>
+          <line>46</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/itcast/web/servlet/MloginServlet.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/stu_Inf.jsp</url>
+          <line>30</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/itcast/service/impl/UserServiceImpl.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/TotalPage.jsp</url>
+          <line>21</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/cn/itcast/dao/impl/UserDaoImpl.java</url>
+          <line>62</line>
+          <properties class="cn.itcast.dao.impl.UserDaoImpl" method="findStudentByUsernameAndPassword">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
