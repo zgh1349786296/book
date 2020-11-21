@@ -30,7 +30,7 @@
             }
             else{
                 confirm("借书失败，存量不足！");
-                location.href="index.jsp";
+                location.href="stu_booklist.jsp";
             }
         }
     </script>
@@ -45,13 +45,13 @@
 
 
     <div style="float: right;margin:5px">
-        <a class="btn btn-primary" href="stuInf.jsp" id="stuInf">个人信息</a>
+        <a class="btn btn-primary" href="stu_Inf.jsp" id="stuInf">个人信息</a>
     </div>
     <div style="float: right;margin:5px">
-        <a class="btn btn-primary" href="inOutRecord.jsp" id="bookRecord">借阅记录</a>
+        <a class="btn btn-primary" href="stu_inOutRecord.jsp" id="bookRecord">借阅记录</a>
     </div>
     <div style="float: right;margin:5px">
-        <a class="btn btn-primary" href="bookin.jsp" id="bookIn">还书</a>
+        <a class="btn btn-primary" href="stu_bookin.jsp" id="bookIn">还书</a>
     </div>
 
     <div style="float: right;margin:5px">

@@ -2,6 +2,7 @@
 <%@ page import="cn.itcast.dao.DAO.*" %>
 <%@ page import="cn.itcast.domain.*" %>
 <%@ page import="java.util.List" %>
+<%@ page import="cn.itcast.service.impl.UserServiceImpl" %>
 
 <!DOCTYPE html>
 <!-- 网页使用的语言 -->
@@ -30,17 +31,25 @@
 
 </head>
 <body>
+
 <%
     try{
         Student student = null;
         Cookie[] cookies = request.getCookies();
         String sid = "";
-        if(cookies != null) {
-            for (Cookie c : cookies) {
+        UserServiceImpl usi = new UserServiceImpl();
+        sid = usi.CookieStu(cookies);
+        //if(cookies != null) {
+            /*for (Cookie c : cookies) {
                 if (c.getName().equalsIgnoreCase("stuId")) {
                     sid = c.getValue();
                 }
-            }
+            }*/
+
+        if(sid==null){
+            response.sendRedirect("please_login.jsp");
+        }
+        else{
             StudentDAO DAO = new StudentDAO();
 
             try {
@@ -49,7 +58,7 @@
                 e.printStackTrace();
                 response.sendRedirect("stu_fail.jsp");
             }
-        }
+
     BookRecorderDAO InDAO = new BookRecorderDAO();
     BookRecorderDAO OutDAO = new BookRecorderDAO();
     List<BookRecord> bookRecordInList = InDAO.bookInAlready(student.getStuId());
@@ -75,8 +84,8 @@
             <%
                 for (BookRecord BookRecord : bookRecordOutList) {
                     Book book = new Book();
-                    BookDAO DAO = new BookDAO();
-                    book = DAO.searchInf(BookRecord.getBookId());
+                    BookDAO bookDAODAO = new BookDAO();
+                    book = bookDAODAO.searchInf(BookRecord.getBookId());
             %>
             <tr>
                 <td><%=BookRecord.getBookId()%></td>
@@ -104,8 +113,8 @@
             <%
                 for (BookRecord BookRecord : bookRecordInList) {
                     Book book = new Book();
-                    BookDAO DAO = new BookDAO();
-                    book = DAO.searchInf(BookRecord.getBookId());
+                    BookDAO bookDAO= new BookDAO();
+                    book = bookDAO.searchInf(BookRecord.getBookId());
             %>
             <tr>
                 <td><%=BookRecord.getBookId()%></td>
@@ -113,14 +122,24 @@
                 <td><%=BookRecord.getTime()%></td>
                 <td><%="已归还"%></td>
             </tr>
+
+
             <%
-                }
-                } catch (Exception e) {
-                e.printStackTrace();
                 }
             %>
         </table>
     </form>
 </div>
+<%
+
+    }
+    }
+        catch (Exception e) {
+    e.printStackTrace();
+    response.sendRedirect("stu_fail.jsp");
+}
+
+
+%>
 </body>
 </html>

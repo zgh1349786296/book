@@ -86,10 +86,6 @@
                     response.sendRedirect("stu_fail.jsp");
                 }
             }
-
-        //}
-
-
     } catch (NumberFormatException | IOException e) {
     response.sendRedirect("stu_fail.jsp");
     e.printStackTrace();

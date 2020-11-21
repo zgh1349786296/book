@@ -52,7 +52,7 @@ public class BookOutServlet extends HttpServlet {
 
                 } catch (Exception e) {
                     e.printStackTrace();
-                    response.sendRedirect(request.getContextPath()+"/stu_fail.jsp");//用于跳出框架跳转页面
+                    response.sendRedirect(request.getContextPath()+"/please_login.jsp");//用于跳出框架跳转页面
                 }
             }
             else{

@@ -28,7 +28,7 @@
             letter-spacing: 4px;
         }
         .ly_form{
-            width: 150px;
+            width: 200px;
             height: 200px;
             box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
             background: #fff;
@@ -86,7 +86,7 @@
         }
         .msg{
             text-align: center;
-            margin-top: 115px;
+            margin-top: 105px;
         }
 
     </style>
@@ -112,8 +112,13 @@
     </div>
     </form>
     <div class="msg">
-        没有用户？请联系教务处</a>
+        没有账号？请联系教务处
     </div>
+    <div class="msg">
+        <a href="stu_booklist.jsp">免登陆查询，点击这里</a>
+    </div>
+
+
 </div>
 <div class="alert alert-warning alert-dismissible" role="alert" style="text-align: center">
     <button type="button" class="close" data-dismiss="alert" >
