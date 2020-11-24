@@ -40,24 +40,28 @@ public class DelBookServlet extends HttpServlet {
         //调用服务
         UserService service = new UserServiceImpl();
         Book  book = service.findBookById(id);
-        BooksService_dao dao=new BooksService_dao();
-        try {
-            //查询该图书是否被借
-            List<BooksService_vo> books = dao.booksInSelectByBookId(book.getBookId());
-            if(books.size()==0&&book!=null){
-                //添加操作记录
-                BookEdit bookedit =new BookEdit(book.getBookId(),manId,date,"删除",book.getBookCount());
-                service.addBookEdit(bookedit);
-                //删除图书
-                service.deleteBook(id);
-                response.sendRedirect(request.getContextPath()+"/bookListServlet");
+        if(book==null){
+            response.sendRedirect("book_fail.jsp");
+        }
+        else {
+            BooksService_dao dao = new BooksService_dao();
+            try {
+                //查询该图书是否被借
+                List<BooksService_vo> books = dao.booksInSelectByBookId(book.getBookId());
+                if (books.size() == 0 && book != null) {
+                    //添加操作记录
+                    BookEdit bookedit = new BookEdit(book.getBookId(), manId, date, "删除", book.getBookCount());
+                    service.addBookEdit(bookedit);
+                    //删除图书
+                    service.deleteBook(id);
+                    response.sendRedirect(request.getContextPath() + "/bookListServlet");
+                } else {
+                    //删除失败
+                    response.sendRedirect("book_fail.jsp");
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-            else {
-                //删除失败
-                response.sendRedirect("book_fail.jsp");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
         }
 
 

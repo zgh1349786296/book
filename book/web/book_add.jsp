@@ -49,7 +49,7 @@
 </head>
 <body>
 <div class="container">
-    <center><h3>注册</h3></center>
+    <center><h3>新增图书</h3></center>
     <form action="${pageContext.request.contextPath}/addBookServlet" method="post " onsubmit="return validate(this);">
         <div class="form-group">
             <label for="bookId">图书编号：</label>

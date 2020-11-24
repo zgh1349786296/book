@@ -26,7 +26,7 @@
     <!-- 3. 导入bootstrap的js文件 -->
     <script src="js/bootstrap.min.js"></script>
     <script>
-    function deleteUser(id) {
+    function deleteBook(id) {
 
     if(confirm("您确定删除么")){
     location.href="${pageContext.request.contextPath}/delBookServlet?id="+id;
@@ -61,7 +61,7 @@
                     <input type="text" class="form-control" id="book" name="book" placeholder="请输入查询信息">
                 </div>
             </div>
-            <button type="submit" class="btn btn-default">查询图书馆</button>
+            <button type="submit" class="btn btn-default">查询图书</button>
         </form>
     </div>
 
@@ -90,7 +90,7 @@
                 <td>${book.bookClassify}</td>
                 <td>${book.bookCount}</td>
                 <td><a class="btn btn-default btn-sm" href="${pageContext.request.contextPath}/findBookByIdServlet?id=${book.bookId}">修改</a>
-                    <a class="btn btn-default btn-sm" href="javascript:deleteUser(${book.bookId});">删除</a></td>
+                    <a class="btn btn-default btn-sm" href="javascript:deleteBook('${book.bookId}');">删除</a></td>
             </tr>
         </c:forEach>
     </tr>

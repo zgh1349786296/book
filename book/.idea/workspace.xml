@@ -11,9 +11,27 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d3adf9-a210-4dc9-a241-29ad406630ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/TotalPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/TotalPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/MloginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/MloginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/DelBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/DelBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/FindBookByIdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/FindBookByIdServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/UpdateBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/book/UpdateBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/WEB-INF/classes/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/book_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/book_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/user_war_exploded/book_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/user_war_exploded/book_list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/MloginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/MloginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/DelBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/DelBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/FindBookByIdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/FindBookByIdServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/UpdateBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/cn/itcast/web/servlet/book/UpdateBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/user/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/user/druid.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/MloginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/MloginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/DelBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/DelBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/FindBookByIdServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/FindBookByIdServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/UpdateBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/web/servlet/book/UpdateBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/TotalPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/TotalPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/book_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/book_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/book_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/book_list.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,12 +78,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA WEB\book\src\cn\itcast\web\servlet" />
+      <recent name="D:\JAVA WEB\book\web\book" />
       <recent name="D:\JAVA WEB\book\web" />
-      <recent name="D:\JAVA WEB\book\src\cn\itcast\dao" />
-      <recent name="D:\JAVA WEB\book\web\WEB-INF" />
+      <recent name="D:\JAVA WEB\user\web\css" />
       <recent name="D:\JAVA WEB\user\web" />
-      <recent name="D:\JAVA WEB\user\src\cn\itcast\web\servlet" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.itcast.web.servlet" />
@@ -74,12 +92,12 @@
       <recent name="cn.itcast.domain" />
       <recent name="cn.itcast.util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JAVA WEB\book\src\cn\itcast\web\servlet" />
-      <recent name="D:\JAVA WEB\book\web\book" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JAVA WEB\book\web" />
-      <recent name="D:\JAVA WEB\user\web\css" />
+      <recent name="D:\JAVA WEB\book\src\cn\itcast\dao" />
+      <recent name="D:\JAVA WEB\book\web\WEB-INF" />
       <recent name="D:\JAVA WEB\user\web" />
+      <recent name="D:\JAVA WEB\user\src\cn\itcast\web\servlet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -217,6 +235,9 @@
       <workItem from="1605707846876" duration="7106000" />
       <workItem from="1605744366236" duration="44769000" />
       <workItem from="1605922807028" duration="4737000" />
+      <workItem from="1605946941406" duration="2099000" />
+      <workItem from="1606057212603" duration="2771000" />
+      <workItem from="1606090957451" duration="5319000" />
     </task>
     <servers />
   </component>
@@ -228,7 +249,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -262,15 +285,20 @@
           <line>97</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/web/TotalPage.jsp</url>
-          <line>21</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cn/itcast/web/servlet/student/BookOutServlet.java</url>
           <line>25</line>
           <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/itcast/web/servlet/book/DelBookServlet.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/stu_inOutRecord.jsp</url>
+          <line>36</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/cn/itcast/dao/impl/UserDaoImpl.java</url>

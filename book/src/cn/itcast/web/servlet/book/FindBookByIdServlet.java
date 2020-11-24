@@ -24,12 +24,17 @@ public class FindBookByIdServlet extends HttpServlet {
         UserService service = new UserServiceImpl();
         Book book = service.findBookById(id);
     //添加操作记录
-        Date date = new Date();
-        BookEdit bookedit =new BookEdit(book.getBookId(),"zgh",date,"查找",book.getBookCount());
-        service.addBookEdit(bookedit);
-        request.setAttribute("book",book);
-        //4.实现返现.jsp
-        request.getRequestDispatcher("/book_update.jsp").forward(request,response);
+        if(book==null){
+            response.sendRedirect("book_fail.jsp");
+        }
+        else {
+            Date date = new Date();
+            BookEdit bookedit = new BookEdit(book.getBookId(), "zgh", date, "查找", book.getBookCount());
+            service.addBookEdit(bookedit);
+            request.setAttribute("book", book);
+            //4.实现返现.jsp
+            request.getRequestDispatcher("/book_update.jsp").forward(request, response);
+        }
     }
 
     @Override

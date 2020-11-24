@@ -6,6 +6,7 @@ and open the template in the editor.
 -->
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="cn.itcast.service.impl.UserServiceImpl" %>
+<%@ page import="cn.itcast.domain.Manager" %>
 <html>
 <head>
   <title>图书管理系统——管理员版</title>
@@ -19,10 +20,8 @@ and open the template in the editor.
 <body>
 <%
   try {
-    Cookie[] cookies = request.getCookies();
-    String manId = null;
-    UserServiceImpl usi = new UserServiceImpl();
-    manId = usi.CookieMan(cookies);
+
+    String manId = request.getAttribute("manId").toString();
     if(manId==null||manId.equals("")){
       response.sendRedirect("please_login.jsp");
     }
@@ -91,13 +90,13 @@ and open the template in the editor.
 <%
   } catch (Exception e) {
     e.printStackTrace();
-    response.sendRedirect("book_fail.jsp");
+    response.sendRedirect("please_login.jsp");
   }
   }
   }
   catch (Exception e) {
     e.printStackTrace();
-    response.sendRedirect("book_fail.jsp");
+    response.sendRedirect("please_login.jsp");
   }
 
 %>
